@@ -1,0 +1,42 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+
+# Virtual Environment
+venv/
+env/
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Django Migrations (если нужно игнорировать)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+*/migrations/*.swp
+
+# IDE (PyCharm, VS Code)
+.idea/
+.vscode/
+*.code-workspace
+
+# Git и ОС
+.DS_Store
+Thumbs.db
+
+# Docker (если используешь)
+docker-compose.override.yml
+.env
